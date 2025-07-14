@@ -6,6 +6,9 @@ const Contact = () => {
   return (
     <div>
          <header className="navbar">
+          <div>
+            <h1>this is contact page</h1>
+          </div>
       <div className="logo">
         <i className="fas fa-cart-arrow-down"></i>
         <span>Aroma</span>
