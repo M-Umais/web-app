@@ -6,6 +6,7 @@ export default function Blogdetails() {
         <div>
             <Navbar />
             <h1>Blog Details</h1>
+            <h1>this is from UMAIS</h1>
         </div>
     )
 }
