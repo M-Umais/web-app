@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 
-function Form({ setsubmittext}) {
+function Form({ setsubmittext }) {
   const [inputValue, setInputValue] = useState(" ");
 
   const handleSubmit = (e) => {
-    e.preventDefault(); 
-    setsubmittext(inputValue); 
-    setInputValue(" "); 
+    e.preventDefault();
+    setsubmittext(inputValue);
+    setInputValue(" ");
   };
 
   return (
-    <form onSubmit={handleSubmit}>    
+    <form onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Enter your name"

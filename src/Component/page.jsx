@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from './navbar/navbar'
 
-function Shop() {
+function Page() {
   return (
     <div>
       <Navbar/>
@@ -9,4 +9,4 @@ function Shop() {
   )
 }
 
-export default Shop
+export default Page

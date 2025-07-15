@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from './navbar'
+import Navbar from '../navbar/navbar'
 
-function Contact() {
+function Shop() {
   return (
     <div>
       <Navbar />
@@ -9,4 +9,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Shop
